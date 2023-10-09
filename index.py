@@ -1,6 +1,6 @@
 def main():
     while True:
-        cmd = input("Enter command: ")
+        cmd = input("db > ")
         if cmd == ".exit":
             print("Shutting down...")
             return
